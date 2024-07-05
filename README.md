@@ -14,7 +14,7 @@ This is a sophisticated trading bot for the Vertex Protocol, implementing a mult
 
 1. Install dependencies: "pip install -r requirements.txt"
 
-2. Set up your Vertex Protocol API key in `config/settings.py`.
+2. Set up your PRIVATE KEY in `config/settings.py` or use a `.env`
 
 3. Adjust trading parameters and risk management settings in `config/settings.py`.
 
