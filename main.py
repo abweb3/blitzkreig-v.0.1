@@ -3,8 +3,7 @@ This module contains the implementation of a trading bot using the Vertex Protoc
 """
 
 import time
-from vertex_protocol.client.enums import VertexClientMode
-from vertex_protocol.client import create_vertex_client
+from vertex_protocol.client import create_vertex_client, VertexClientMode
 from vertex_trading_bot import (
     DataFetcher,
     DataProcessor,

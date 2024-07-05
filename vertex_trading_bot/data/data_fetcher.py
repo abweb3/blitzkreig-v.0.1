@@ -3,13 +3,15 @@ Data Fetcher Module for Vertex Trading Bot
 """
 
 import pandas as pd
-from vertex_protocol.client import create_vertex_client
+from vertex_protocol.client import create_vertex_client, VertexClientMode
 from vertex_trading_bot.config import settings
 
 
 class DataFetcher:
     def __init__(self):
-        self.client = create_vertex_client(ClientMode.MAINNET, settings.PRIVATE_KEY)
+        self.client = create_vertex_client(
+            VertexClientMode.MAINNET, settings.PRIVATE_KEY
+        )
 
     def fetch_historical_data(self):
         candles = self.client.market.get_candles(

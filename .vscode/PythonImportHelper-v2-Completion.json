@@ -66,7 +66,23 @@
         "documentation": {}
     },
     {
+        "label": "VertexClientMode",
+        "importPath": "vertex_protocol.client",
+        "description": "vertex_protocol.client",
+        "isExtraImport": true,
+        "detail": "vertex_protocol.client",
+        "documentation": {}
+    },
+    {
         "label": "create_vertex_client",
+        "importPath": "vertex_protocol.client",
+        "description": "vertex_protocol.client",
+        "isExtraImport": true,
+        "detail": "vertex_protocol.client",
+        "documentation": {}
+    },
+    {
+        "label": "VertexClientMode",
         "importPath": "vertex_protocol.client",
         "description": "vertex_protocol.client",
         "isExtraImport": true,
@@ -481,14 +497,6 @@
         "documentation": {}
     },
     {
-        "label": "VertexClientMode",
-        "importPath": "vertex_protocol.client.enums",
-        "description": "vertex_protocol.client.enums",
-        "isExtraImport": true,
-        "detail": "vertex_protocol.client.enums",
-        "documentation": {}
-    },
-    {
         "label": "PRIVATE_KEY",
         "kind": 5,
         "importPath": "vertex_trading_bot.config.settings",
@@ -691,7 +699,7 @@
         "kind": 6,
         "importPath": "vertex_trading_bot.data.data_fetcher",
         "description": "vertex_trading_bot.data.data_fetcher",
-        "peekOfCode": "class DataFetcher:\n    def __init__(self):\n        self.client = create_vertex_client(ClientMode.MAINNET, settings.PRIVATE_KEY)\n    def fetch_historical_data(self):\n        candles = self.client.market.get_candles(\n            product_id=settings.PRODUCT_ID,\n            resolution=settings.TIMEFRAME,\n            limit=settings.LOOKBACK_PERIOD,\n        )\n        df = pd.DataFrame(",
+        "peekOfCode": "class DataFetcher:\n    def __init__(self):\n        self.client = create_vertex_client(\n            VertexClientMode.MAINNET, settings.PRIVATE_KEY\n        )\n    def fetch_historical_data(self):\n        candles = self.client.market.get_candles(\n            product_id=settings.PRODUCT_ID,\n            resolution=settings.TIMEFRAME,\n            limit=settings.LOOKBACK_PERIOD,",
         "detail": "vertex_trading_bot.data.data_fetcher",
         "documentation": {}
     },

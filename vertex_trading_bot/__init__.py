@@ -4,21 +4,26 @@ Vertex Trading Bot
 This package implements a sophisticated trading bot for the Vertex Protocol,
 utilizing multiple technical indicators and machine learning for trading decisions.
 """
+import time
+
+from vertex_protocol.client import VertexClientMode, create_vertex_client
 
 from .config import settings
 from .data.data_fetcher import DataFetcher
 from .data.data_processor import DataProcessor
+from .execution.order_manager import OrderManager
 from .models.ml_model import MLModel
-from .strategies.multi_indicator_strategy import MultiIndicatorStrategy
 from .risk_management.position_sizer import PositionSizer
 from .risk_management.stop_loss_manager import StopLossManager
-from .execution.order_manager import OrderManager
-from .utils.logger import log_trade, log_error
+from .strategies.multi_indicator_strategy import MultiIndicatorStrategy
+from .utils.logger import log_error, log_trade
 
 
 class TradingBot:
     def __init__(self):
-        self.client = create_vertex_client(ClientMode.MAINNET, settings.PRIVATE_KEY)
+        self.client = create_vertex_client(
+            VertexClientMode.MAINNET, settings.PRIVATE_KEY
+        )
         self.data_fetcher = DataFetcher()
         self.data_processor = DataProcessor()
         self.ml_model = MLModel(
