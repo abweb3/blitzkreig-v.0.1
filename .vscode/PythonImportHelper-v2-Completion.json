@@ -9,14 +9,6 @@
         "documentation": {}
     },
     {
-        "label": "load_dotenv",
-        "importPath": "dotenv",
-        "description": "dotenv",
-        "isExtraImport": true,
-        "detail": "dotenv",
-        "documentation": {}
-    },
-    {
         "label": "to_x18",
         "importPath": "vertex_protocol.utils.math",
         "description": "vertex_protocol.utils.math",
@@ -325,14 +317,6 @@
         "documentation": {}
     },
     {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
         "label": "shutil",
         "kind": 6,
         "isExtraImport": true,
@@ -461,7 +445,7 @@
         "kind": 5,
         "importPath": "vertex_trading_bot.config.settings",
         "description": "vertex_trading_bot.config.settings",
-        "peekOfCode": "PRIVATE_KEY = os.getenv('PRIVATE_KEY')\nPRODUCT_ID = 1  # Replace with the actual product ID you want to trade\n# Trading parameters\nSYMBOL = \"ETH-PERP\"\nTIMEFRAME = \"5m\"\nLOOKBACK_PERIOD = 100\n# Indicator parameters\nRSI_PERIOD = 14\nRSI_OVERBOUGHT = 70\nRSI_OVERSOLD = 30",
+        "peekOfCode": "PRIVATE_KEY = os.getenv(\"PRIVATE_KEY\")\nPRODUCT_ID = 1  # Replace with the actual product ID you want to trade\n# Trading parameters\nSYMBOL = \"ETH-PERP\"\nTIMEFRAME = \"5m\"\nLOOKBACK_PERIOD = 100\n# Indicator parameters\nRSI_PERIOD = 14\nRSI_OVERBOUGHT = 70\nRSI_OVERSOLD = 30",
         "detail": "vertex_trading_bot.config.settings",
         "documentation": {}
     },
@@ -578,7 +562,7 @@
         "kind": 5,
         "importPath": "vertex_trading_bot.config.settings",
         "description": "vertex_trading_bot.config.settings",
-        "peekOfCode": "MACD_FAST = 12\nMACD_SLOW = 26\nMACD_SIGNAL = 9\n# Risk management\nMAX_POSITION_SIZE = to_x18(0.1)  # 10% of account balance\nSTOP_LOSS_PERCENT = to_x18(0.02)  # 2% stop loss\n# Performance targets\nPROFIT_TARGET = to_x18(0.15)  # 15% profit target\n# Machine learning\nML_FEATURES = [\"rsi\", \"stoch_rsi_k\", \"stoch_rsi_d\", \"bb_percent\", \"macd\", \"macd_signal\", \"macd_hist\"]",
+        "peekOfCode": "MACD_FAST = 12\nMACD_SLOW = 26\nMACD_SIGNAL = 9\n# Risk management\nMAX_POSITION_SIZE = to_x18(0.1)  # 10% of account balance\nSTOP_LOSS_PERCENT = to_x18(0.02)  # 2% stop loss\n# Performance targets\nPROFIT_TARGET = to_x18(0.15)  # 15% profit target\n# Machine learning\nML_FEATURES = [",
         "detail": "vertex_trading_bot.config.settings",
         "documentation": {}
     },
@@ -587,7 +571,7 @@
         "kind": 5,
         "importPath": "vertex_trading_bot.config.settings",
         "description": "vertex_trading_bot.config.settings",
-        "peekOfCode": "MACD_SLOW = 26\nMACD_SIGNAL = 9\n# Risk management\nMAX_POSITION_SIZE = to_x18(0.1)  # 10% of account balance\nSTOP_LOSS_PERCENT = to_x18(0.02)  # 2% stop loss\n# Performance targets\nPROFIT_TARGET = to_x18(0.15)  # 15% profit target\n# Machine learning\nML_FEATURES = [\"rsi\", \"stoch_rsi_k\", \"stoch_rsi_d\", \"bb_percent\", \"macd\", \"macd_signal\", \"macd_hist\"]\nML_LOOKBACK = 30",
+        "peekOfCode": "MACD_SLOW = 26\nMACD_SIGNAL = 9\n# Risk management\nMAX_POSITION_SIZE = to_x18(0.1)  # 10% of account balance\nSTOP_LOSS_PERCENT = to_x18(0.02)  # 2% stop loss\n# Performance targets\nPROFIT_TARGET = to_x18(0.15)  # 15% profit target\n# Machine learning\nML_FEATURES = [\n    \"rsi\",",
         "detail": "vertex_trading_bot.config.settings",
         "documentation": {}
     },
@@ -596,7 +580,7 @@
         "kind": 5,
         "importPath": "vertex_trading_bot.config.settings",
         "description": "vertex_trading_bot.config.settings",
-        "peekOfCode": "MACD_SIGNAL = 9\n# Risk management\nMAX_POSITION_SIZE = to_x18(0.1)  # 10% of account balance\nSTOP_LOSS_PERCENT = to_x18(0.02)  # 2% stop loss\n# Performance targets\nPROFIT_TARGET = to_x18(0.15)  # 15% profit target\n# Machine learning\nML_FEATURES = [\"rsi\", \"stoch_rsi_k\", \"stoch_rsi_d\", \"bb_percent\", \"macd\", \"macd_signal\", \"macd_hist\"]\nML_LOOKBACK = 30\nML_PREDICTION_HORIZON = 5",
+        "peekOfCode": "MACD_SIGNAL = 9\n# Risk management\nMAX_POSITION_SIZE = to_x18(0.1)  # 10% of account balance\nSTOP_LOSS_PERCENT = to_x18(0.02)  # 2% stop loss\n# Performance targets\nPROFIT_TARGET = to_x18(0.15)  # 15% profit target\n# Machine learning\nML_FEATURES = [\n    \"rsi\",\n    \"stoch_rsi_k\",",
         "detail": "vertex_trading_bot.config.settings",
         "documentation": {}
     },
@@ -605,7 +589,7 @@
         "kind": 5,
         "importPath": "vertex_trading_bot.config.settings",
         "description": "vertex_trading_bot.config.settings",
-        "peekOfCode": "MAX_POSITION_SIZE = to_x18(0.1)  # 10% of account balance\nSTOP_LOSS_PERCENT = to_x18(0.02)  # 2% stop loss\n# Performance targets\nPROFIT_TARGET = to_x18(0.15)  # 15% profit target\n# Machine learning\nML_FEATURES = [\"rsi\", \"stoch_rsi_k\", \"stoch_rsi_d\", \"bb_percent\", \"macd\", \"macd_signal\", \"macd_hist\"]\nML_LOOKBACK = 30\nML_PREDICTION_HORIZON = 5",
+        "peekOfCode": "MAX_POSITION_SIZE = to_x18(0.1)  # 10% of account balance\nSTOP_LOSS_PERCENT = to_x18(0.02)  # 2% stop loss\n# Performance targets\nPROFIT_TARGET = to_x18(0.15)  # 15% profit target\n# Machine learning\nML_FEATURES = [\n    \"rsi\",\n    \"stoch_rsi_k\",\n    \"stoch_rsi_d\",\n    \"bb_percent\",",
         "detail": "vertex_trading_bot.config.settings",
         "documentation": {}
     },
@@ -614,7 +598,7 @@
         "kind": 5,
         "importPath": "vertex_trading_bot.config.settings",
         "description": "vertex_trading_bot.config.settings",
-        "peekOfCode": "STOP_LOSS_PERCENT = to_x18(0.02)  # 2% stop loss\n# Performance targets\nPROFIT_TARGET = to_x18(0.15)  # 15% profit target\n# Machine learning\nML_FEATURES = [\"rsi\", \"stoch_rsi_k\", \"stoch_rsi_d\", \"bb_percent\", \"macd\", \"macd_signal\", \"macd_hist\"]\nML_LOOKBACK = 30\nML_PREDICTION_HORIZON = 5",
+        "peekOfCode": "STOP_LOSS_PERCENT = to_x18(0.02)  # 2% stop loss\n# Performance targets\nPROFIT_TARGET = to_x18(0.15)  # 15% profit target\n# Machine learning\nML_FEATURES = [\n    \"rsi\",\n    \"stoch_rsi_k\",\n    \"stoch_rsi_d\",\n    \"bb_percent\",\n    \"macd\",",
         "detail": "vertex_trading_bot.config.settings",
         "documentation": {}
     },
@@ -623,7 +607,7 @@
         "kind": 5,
         "importPath": "vertex_trading_bot.config.settings",
         "description": "vertex_trading_bot.config.settings",
-        "peekOfCode": "PROFIT_TARGET = to_x18(0.15)  # 15% profit target\n# Machine learning\nML_FEATURES = [\"rsi\", \"stoch_rsi_k\", \"stoch_rsi_d\", \"bb_percent\", \"macd\", \"macd_signal\", \"macd_hist\"]\nML_LOOKBACK = 30\nML_PREDICTION_HORIZON = 5",
+        "peekOfCode": "PROFIT_TARGET = to_x18(0.15)  # 15% profit target\n# Machine learning\nML_FEATURES = [\n    \"rsi\",\n    \"stoch_rsi_k\",\n    \"stoch_rsi_d\",\n    \"bb_percent\",\n    \"macd\",\n    \"macd_signal\",\n    \"macd_hist\",",
         "detail": "vertex_trading_bot.config.settings",
         "documentation": {}
     },
@@ -632,7 +616,7 @@
         "kind": 5,
         "importPath": "vertex_trading_bot.config.settings",
         "description": "vertex_trading_bot.config.settings",
-        "peekOfCode": "ML_FEATURES = [\"rsi\", \"stoch_rsi_k\", \"stoch_rsi_d\", \"bb_percent\", \"macd\", \"macd_signal\", \"macd_hist\"]\nML_LOOKBACK = 30\nML_PREDICTION_HORIZON = 5",
+        "peekOfCode": "ML_FEATURES = [\n    \"rsi\",\n    \"stoch_rsi_k\",\n    \"stoch_rsi_d\",\n    \"bb_percent\",\n    \"macd\",\n    \"macd_signal\",\n    \"macd_hist\",\n]\nML_LOOKBACK = 30",
         "detail": "vertex_trading_bot.config.settings",
         "documentation": {}
     },
@@ -785,7 +769,7 @@
         "kind": 2,
         "importPath": "vertex_trading_bot.utils.logger",
         "description": "vertex_trading_bot.utils.logger",
-        "peekOfCode": "def setup_logger(name, log_file, level=logging.INFO):\n    \"\"\"Function to set up a logger\"\"\"\n    formatter = logging.Formatter(\"%(asctime)s %(levelname)s %(message)s\")\n    handler = logging.FileHandler(log_file)\n    handler.setFormatter(formatter)\n    logger = logging.getLogger(name)\n    logger.setLevel(level)\n    logger.addHandler(handler)\n    return logger\n# Create loggers",
+        "peekOfCode": "def setup_logger(name, log_file, level=logging.INFO):\n    \"\"\"Function to set up a logger; ensure directory exists.\"\"\"\n    # Ensure the directory for the log file exists\n    log_dir = os.path.dirname(log_file)\n    if not os.path.exists(log_dir):\n        os.makedirs(log_dir)  # Create the log directory if it doesn't exist\n    # Create a formatter that specifies the format of log messages\n    formatter = logging.Formatter(\n        \"%(asctime)s - %(name)s - %(levelname)s - %(message)s\"\n    )",
         "detail": "vertex_trading_bot.utils.logger",
         "documentation": {}
     },
@@ -794,7 +778,7 @@
         "kind": 2,
         "importPath": "vertex_trading_bot.utils.logger",
         "description": "vertex_trading_bot.utils.logger",
-        "peekOfCode": "def log_trade(action, amount, price):\n    \"\"\"Function to log trade actions\"\"\"\n    trade_logger.info(f\"{action}: Amount: {amount}, Price: {price}\")\ndef log_error(error_message):\n    \"\"\"Function to log errors\"\"\"\n    error_logger.error(error_message)",
+        "peekOfCode": "def log_trade(action, amount, price):\n    \"\"\"Function to log trade actions. Uses old-style % formatting to delay string interpolation.\"\"\"\n    trade_logger.info(\"Action: %s, Amount: %s, Price: %s\", action, amount, price)\ndef log_error(error_message):\n    \"\"\"Function to log errors. Uses old-style % formatting for efficiency.\"\"\"\n    error_logger.error(\"Error: %s\", error_message)\n# Example usage of the logging functions\nif __name__ == \"__main__\":\n    log_trade(\"BUY\", 100, 50.5)\n    log_error(\"Connection timeout occurred\")",
         "detail": "vertex_trading_bot.utils.logger",
         "documentation": {}
     },
@@ -803,7 +787,7 @@
         "kind": 2,
         "importPath": "vertex_trading_bot.utils.logger",
         "description": "vertex_trading_bot.utils.logger",
-        "peekOfCode": "def log_error(error_message):\n    \"\"\"Function to log errors\"\"\"\n    error_logger.error(error_message)",
+        "peekOfCode": "def log_error(error_message):\n    \"\"\"Function to log errors. Uses old-style % formatting for efficiency.\"\"\"\n    error_logger.error(\"Error: %s\", error_message)\n# Example usage of the logging functions\nif __name__ == \"__main__\":\n    log_trade(\"BUY\", 100, 50.5)\n    log_error(\"Connection timeout occurred\")",
         "detail": "vertex_trading_bot.utils.logger",
         "documentation": {}
     },
@@ -812,7 +796,7 @@
         "kind": 5,
         "importPath": "vertex_trading_bot.utils.logger",
         "description": "vertex_trading_bot.utils.logger",
-        "peekOfCode": "trade_logger = setup_logger(\"trade_log\", \"logs/trades.log\")\nerror_logger = setup_logger(\"error_log\", \"logs/errors.log\", level=logging.ERROR)\ndef log_trade(action, amount, price):\n    \"\"\"Function to log trade actions\"\"\"\n    trade_logger.info(f\"{action}: Amount: {amount}, Price: {price}\")\ndef log_error(error_message):\n    \"\"\"Function to log errors\"\"\"\n    error_logger.error(error_message)",
+        "peekOfCode": "trade_logger = setup_logger(\"trade_logger\", \"logs/trade.log\", logging.INFO)\nerror_logger = setup_logger(\"error_logger\", \"logs/error.log\", logging.ERROR)\ndef log_trade(action, amount, price):\n    \"\"\"Function to log trade actions. Uses old-style % formatting to delay string interpolation.\"\"\"\n    trade_logger.info(\"Action: %s, Amount: %s, Price: %s\", action, amount, price)\ndef log_error(error_message):\n    \"\"\"Function to log errors. Uses old-style % formatting for efficiency.\"\"\"\n    error_logger.error(\"Error: %s\", error_message)\n# Example usage of the logging functions\nif __name__ == \"__main__\":",
         "detail": "vertex_trading_bot.utils.logger",
         "documentation": {}
     },
@@ -821,7 +805,7 @@
         "kind": 5,
         "importPath": "vertex_trading_bot.utils.logger",
         "description": "vertex_trading_bot.utils.logger",
-        "peekOfCode": "error_logger = setup_logger(\"error_log\", \"logs/errors.log\", level=logging.ERROR)\ndef log_trade(action, amount, price):\n    \"\"\"Function to log trade actions\"\"\"\n    trade_logger.info(f\"{action}: Amount: {amount}, Price: {price}\")\ndef log_error(error_message):\n    \"\"\"Function to log errors\"\"\"\n    error_logger.error(error_message)",
+        "peekOfCode": "error_logger = setup_logger(\"error_logger\", \"logs/error.log\", logging.ERROR)\ndef log_trade(action, amount, price):\n    \"\"\"Function to log trade actions. Uses old-style % formatting to delay string interpolation.\"\"\"\n    trade_logger.info(\"Action: %s, Amount: %s, Price: %s\", action, amount, price)\ndef log_error(error_message):\n    \"\"\"Function to log errors. Uses old-style % formatting for efficiency.\"\"\"\n    error_logger.error(\"Error: %s\", error_message)\n# Example usage of the logging functions\nif __name__ == \"__main__\":\n    log_trade(\"BUY\", 100, 50.5)",
         "detail": "vertex_trading_bot.utils.logger",
         "documentation": {}
     },

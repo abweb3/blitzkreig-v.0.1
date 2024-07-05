@@ -4,13 +4,13 @@ Configuration settings for the Vertex Trading Bot.
 This module contains all the configurable parameters used throughout the trading bot,
 including API keys, trading parameters, indicator settings, and risk management values.
 """
+
 import os
 
-from dotenv import load_dotenv
 from vertex_protocol.utils.math import to_x18
 
 # Vertex Protocol settings
-PRIVATE_KEY = os.getenv('PRIVATE_KEY')
+PRIVATE_KEY = os.getenv("PRIVATE_KEY")
 PRODUCT_ID = 1  # Replace with the actual product ID you want to trade
 
 # Trading parameters
@@ -39,6 +39,14 @@ STOP_LOSS_PERCENT = to_x18(0.02)  # 2% stop loss
 PROFIT_TARGET = to_x18(0.15)  # 15% profit target
 
 # Machine learning
-ML_FEATURES = ["rsi", "stoch_rsi_k", "stoch_rsi_d", "bb_percent", "macd", "macd_signal", "macd_hist"]
+ML_FEATURES = [
+    "rsi",
+    "stoch_rsi_k",
+    "stoch_rsi_d",
+    "bb_percent",
+    "macd",
+    "macd_signal",
+    "macd_hist",
+]
 ML_LOOKBACK = 30
 ML_PREDICTION_HORIZON = 5
