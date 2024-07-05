@@ -12,7 +12,7 @@ This is a sophisticated trading bot for the Vertex Protocol, implementing a mult
 
 ## Setup
 
-1. Install dependencies: "pip install -r requirements.txt"
+1. To Install dependencies run: `python setup.py`
 
 2. Set up your PRIVATE KEY in `config/settings.py` or use a `.env`
 
