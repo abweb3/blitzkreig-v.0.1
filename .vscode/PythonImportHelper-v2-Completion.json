@@ -1,0 +1,846 @@
+[
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "to_x18",
+        "importPath": "vertex_protocol.utils.math",
+        "description": "vertex_protocol.utils.math",
+        "isExtraImport": true,
+        "detail": "vertex_protocol.utils.math",
+        "documentation": {}
+    },
+    {
+        "label": "to_x18",
+        "importPath": "vertex_protocol.utils.math",
+        "description": "vertex_protocol.utils.math",
+        "isExtraImport": true,
+        "detail": "vertex_protocol.utils.math",
+        "documentation": {}
+    },
+    {
+        "label": "from_x18",
+        "importPath": "vertex_protocol.utils.math",
+        "description": "vertex_protocol.utils.math",
+        "isExtraImport": true,
+        "detail": "vertex_protocol.utils.math",
+        "documentation": {}
+    },
+    {
+        "label": "to_x18",
+        "importPath": "vertex_protocol.utils.math",
+        "description": "vertex_protocol.utils.math",
+        "isExtraImport": true,
+        "detail": "vertex_protocol.utils.math",
+        "documentation": {}
+    },
+    {
+        "label": "from_x18",
+        "importPath": "vertex_protocol.utils.math",
+        "description": "vertex_protocol.utils.math",
+        "isExtraImport": true,
+        "detail": "vertex_protocol.utils.math",
+        "documentation": {}
+    },
+    {
+        "label": "pandas",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pandas",
+        "description": "pandas",
+        "detail": "pandas",
+        "documentation": {}
+    },
+    {
+        "label": "create_vertex_client",
+        "importPath": "vertex_protocol.client",
+        "description": "vertex_protocol.client",
+        "isExtraImport": true,
+        "detail": "vertex_protocol.client",
+        "documentation": {}
+    },
+    {
+        "label": "create_vertex_client",
+        "importPath": "vertex_protocol.client",
+        "description": "vertex_protocol.client",
+        "isExtraImport": true,
+        "detail": "vertex_protocol.client",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "vertex_trading_bot.config",
+        "description": "vertex_trading_bot.config",
+        "isExtraImport": true,
+        "detail": "vertex_trading_bot.config",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "vertex_trading_bot.config",
+        "description": "vertex_trading_bot.config",
+        "isExtraImport": true,
+        "detail": "vertex_trading_bot.config",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "vertex_trading_bot.config",
+        "description": "vertex_trading_bot.config",
+        "isExtraImport": true,
+        "detail": "vertex_trading_bot.config",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "vertex_trading_bot.config",
+        "description": "vertex_trading_bot.config",
+        "isExtraImport": true,
+        "detail": "vertex_trading_bot.config",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "vertex_trading_bot.config",
+        "description": "vertex_trading_bot.config",
+        "isExtraImport": true,
+        "detail": "vertex_trading_bot.config",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "vertex_trading_bot.config",
+        "description": "vertex_trading_bot.config",
+        "isExtraImport": true,
+        "detail": "vertex_trading_bot.config",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "vertex_trading_bot.config",
+        "description": "vertex_trading_bot.config",
+        "isExtraImport": true,
+        "detail": "vertex_trading_bot.config",
+        "documentation": {}
+    },
+    {
+        "label": "RSI",
+        "importPath": "vertex_trading_bot.indicators.rsi",
+        "description": "vertex_trading_bot.indicators.rsi",
+        "isExtraImport": true,
+        "detail": "vertex_trading_bot.indicators.rsi",
+        "documentation": {}
+    },
+    {
+        "label": "RSI",
+        "importPath": "vertex_trading_bot.indicators.rsi",
+        "description": "vertex_trading_bot.indicators.rsi",
+        "isExtraImport": true,
+        "detail": "vertex_trading_bot.indicators.rsi",
+        "documentation": {}
+    },
+    {
+        "label": "RSI",
+        "importPath": "vertex_trading_bot.indicators.rsi",
+        "description": "vertex_trading_bot.indicators.rsi",
+        "isExtraImport": true,
+        "detail": "vertex_trading_bot.indicators.rsi",
+        "documentation": {}
+    },
+    {
+        "label": "StochRSI",
+        "importPath": "vertex_trading_bot.indicators.stoch_rsi",
+        "description": "vertex_trading_bot.indicators.stoch_rsi",
+        "isExtraImport": true,
+        "detail": "vertex_trading_bot.indicators.stoch_rsi",
+        "documentation": {}
+    },
+    {
+        "label": "StochRSI",
+        "importPath": "vertex_trading_bot.indicators.stoch_rsi",
+        "description": "vertex_trading_bot.indicators.stoch_rsi",
+        "isExtraImport": true,
+        "detail": "vertex_trading_bot.indicators.stoch_rsi",
+        "documentation": {}
+    },
+    {
+        "label": "BollingerBands",
+        "importPath": "vertex_trading_bot.indicators.bollinger_bands",
+        "description": "vertex_trading_bot.indicators.bollinger_bands",
+        "isExtraImport": true,
+        "detail": "vertex_trading_bot.indicators.bollinger_bands",
+        "documentation": {}
+    },
+    {
+        "label": "BollingerBands",
+        "importPath": "vertex_trading_bot.indicators.bollinger_bands",
+        "description": "vertex_trading_bot.indicators.bollinger_bands",
+        "isExtraImport": true,
+        "detail": "vertex_trading_bot.indicators.bollinger_bands",
+        "documentation": {}
+    },
+    {
+        "label": "MACD",
+        "importPath": "vertex_trading_bot.indicators.macd",
+        "description": "vertex_trading_bot.indicators.macd",
+        "isExtraImport": true,
+        "detail": "vertex_trading_bot.indicators.macd",
+        "documentation": {}
+    },
+    {
+        "label": "MACD",
+        "importPath": "vertex_trading_bot.indicators.macd",
+        "description": "vertex_trading_bot.indicators.macd",
+        "isExtraImport": true,
+        "detail": "vertex_trading_bot.indicators.macd",
+        "documentation": {}
+    },
+    {
+        "label": "DepositCollateralParams",
+        "importPath": "vertex_protocol.contracts.types",
+        "description": "vertex_protocol.contracts.types",
+        "isExtraImport": true,
+        "detail": "vertex_protocol.contracts.types",
+        "documentation": {}
+    },
+    {
+        "label": "OrderParams",
+        "importPath": "vertex_protocol.engine_client.types.execute",
+        "description": "vertex_protocol.engine_client.types.execute",
+        "isExtraImport": true,
+        "detail": "vertex_protocol.engine_client.types.execute",
+        "documentation": {}
+    },
+    {
+        "label": "PlaceOrderParams",
+        "importPath": "vertex_protocol.engine_client.types.execute",
+        "description": "vertex_protocol.engine_client.types.execute",
+        "isExtraImport": true,
+        "detail": "vertex_protocol.engine_client.types.execute",
+        "documentation": {}
+    },
+    {
+        "label": "OrderType",
+        "importPath": "vertex_protocol.utils.expiration",
+        "description": "vertex_protocol.utils.expiration",
+        "isExtraImport": true,
+        "detail": "vertex_protocol.utils.expiration",
+        "documentation": {}
+    },
+    {
+        "label": "get_expiration_timestamp",
+        "importPath": "vertex_protocol.utils.expiration",
+        "description": "vertex_protocol.utils.expiration",
+        "isExtraImport": true,
+        "detail": "vertex_protocol.utils.expiration",
+        "documentation": {}
+    },
+    {
+        "label": "gen_order_nonce",
+        "importPath": "vertex_protocol.utils.nonce",
+        "description": "vertex_protocol.utils.nonce",
+        "isExtraImport": true,
+        "detail": "vertex_protocol.utils.nonce",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "RandomForestRegressor",
+        "importPath": "sklearn.ensemble",
+        "description": "sklearn.ensemble",
+        "isExtraImport": true,
+        "detail": "sklearn.ensemble",
+        "documentation": {}
+    },
+    {
+        "label": "StandardScaler",
+        "importPath": "sklearn.preprocessing",
+        "description": "sklearn.preprocessing",
+        "isExtraImport": true,
+        "detail": "sklearn.preprocessing",
+        "documentation": {}
+    },
+    {
+        "label": "unittest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "unittest",
+        "description": "unittest",
+        "detail": "unittest",
+        "documentation": {}
+    },
+    {
+        "label": "DataFetcher",
+        "importPath": "vertex_trading_bot.data.data_fetcher",
+        "description": "vertex_trading_bot.data.data_fetcher",
+        "isExtraImport": true,
+        "detail": "vertex_trading_bot.data.data_fetcher",
+        "documentation": {}
+    },
+    {
+        "label": "MultiIndicatorStrategy",
+        "importPath": "vertex_trading_bot.strategies.multi_indicator_strategy",
+        "description": "vertex_trading_bot.strategies.multi_indicator_strategy",
+        "isExtraImport": true,
+        "detail": "vertex_trading_bot.strategies.multi_indicator_strategy",
+        "documentation": {}
+    },
+    {
+        "label": "MLModel",
+        "importPath": "vertex_trading_bot.models.ml_model",
+        "description": "vertex_trading_bot.models.ml_model",
+        "isExtraImport": true,
+        "detail": "vertex_trading_bot.models.ml_model",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "shutil",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "shutil",
+        "description": "shutil",
+        "detail": "shutil",
+        "documentation": {}
+    },
+    {
+        "label": "importlib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "importlib",
+        "description": "importlib",
+        "detail": "importlib",
+        "documentation": {}
+    },
+    {
+        "label": "traceback",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "traceback",
+        "description": "traceback",
+        "detail": "traceback",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "ClientMode",
+        "importPath": "vertex_protocol.utils.enums",
+        "description": "vertex_protocol.utils.enums",
+        "isExtraImport": true,
+        "detail": "vertex_protocol.utils.enums",
+        "documentation": {}
+    },
+    {
+        "label": "DataFetcher",
+        "importPath": "vertex_trading_bot",
+        "description": "vertex_trading_bot",
+        "isExtraImport": true,
+        "detail": "vertex_trading_bot",
+        "documentation": {}
+    },
+    {
+        "label": "DataProcessor",
+        "importPath": "vertex_trading_bot",
+        "description": "vertex_trading_bot",
+        "isExtraImport": true,
+        "detail": "vertex_trading_bot",
+        "documentation": {}
+    },
+    {
+        "label": "MLModel",
+        "importPath": "vertex_trading_bot",
+        "description": "vertex_trading_bot",
+        "isExtraImport": true,
+        "detail": "vertex_trading_bot",
+        "documentation": {}
+    },
+    {
+        "label": "MultiIndicatorStrategy",
+        "importPath": "vertex_trading_bot",
+        "description": "vertex_trading_bot",
+        "isExtraImport": true,
+        "detail": "vertex_trading_bot",
+        "documentation": {}
+    },
+    {
+        "label": "OrderManager",
+        "importPath": "vertex_trading_bot",
+        "description": "vertex_trading_bot",
+        "isExtraImport": true,
+        "detail": "vertex_trading_bot",
+        "documentation": {}
+    },
+    {
+        "label": "PositionSizer",
+        "importPath": "vertex_trading_bot",
+        "description": "vertex_trading_bot",
+        "isExtraImport": true,
+        "detail": "vertex_trading_bot",
+        "documentation": {}
+    },
+    {
+        "label": "StopLossManager",
+        "importPath": "vertex_trading_bot",
+        "description": "vertex_trading_bot",
+        "isExtraImport": true,
+        "detail": "vertex_trading_bot",
+        "documentation": {}
+    },
+    {
+        "label": "log_error",
+        "importPath": "vertex_trading_bot",
+        "description": "vertex_trading_bot",
+        "isExtraImport": true,
+        "detail": "vertex_trading_bot",
+        "documentation": {}
+    },
+    {
+        "label": "log_trade",
+        "importPath": "vertex_trading_bot",
+        "description": "vertex_trading_bot",
+        "isExtraImport": true,
+        "detail": "vertex_trading_bot",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "vertex_trading_bot",
+        "description": "vertex_trading_bot",
+        "isExtraImport": true,
+        "detail": "vertex_trading_bot",
+        "documentation": {}
+    },
+    {
+        "label": "PRIVATE_KEY",
+        "kind": 5,
+        "importPath": "vertex_trading_bot.config.settings",
+        "description": "vertex_trading_bot.config.settings",
+        "peekOfCode": "PRIVATE_KEY = os.getenv('PRIVATE_KEY')\nPRODUCT_ID = 1  # Replace with the actual product ID you want to trade\n# Trading parameters\nSYMBOL = \"ETH-PERP\"\nTIMEFRAME = \"5m\"\nLOOKBACK_PERIOD = 100\n# Indicator parameters\nRSI_PERIOD = 14\nRSI_OVERBOUGHT = 70\nRSI_OVERSOLD = 30",
+        "detail": "vertex_trading_bot.config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "PRODUCT_ID",
+        "kind": 5,
+        "importPath": "vertex_trading_bot.config.settings",
+        "description": "vertex_trading_bot.config.settings",
+        "peekOfCode": "PRODUCT_ID = 1  # Replace with the actual product ID you want to trade\n# Trading parameters\nSYMBOL = \"ETH-PERP\"\nTIMEFRAME = \"5m\"\nLOOKBACK_PERIOD = 100\n# Indicator parameters\nRSI_PERIOD = 14\nRSI_OVERBOUGHT = 70\nRSI_OVERSOLD = 30\nSTOCH_RSI_PERIOD = 14",
+        "detail": "vertex_trading_bot.config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SYMBOL",
+        "kind": 5,
+        "importPath": "vertex_trading_bot.config.settings",
+        "description": "vertex_trading_bot.config.settings",
+        "peekOfCode": "SYMBOL = \"ETH-PERP\"\nTIMEFRAME = \"5m\"\nLOOKBACK_PERIOD = 100\n# Indicator parameters\nRSI_PERIOD = 14\nRSI_OVERBOUGHT = 70\nRSI_OVERSOLD = 30\nSTOCH_RSI_PERIOD = 14\nSTOCH_RSI_K = 3\nSTOCH_RSI_D = 3",
+        "detail": "vertex_trading_bot.config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIMEFRAME",
+        "kind": 5,
+        "importPath": "vertex_trading_bot.config.settings",
+        "description": "vertex_trading_bot.config.settings",
+        "peekOfCode": "TIMEFRAME = \"5m\"\nLOOKBACK_PERIOD = 100\n# Indicator parameters\nRSI_PERIOD = 14\nRSI_OVERBOUGHT = 70\nRSI_OVERSOLD = 30\nSTOCH_RSI_PERIOD = 14\nSTOCH_RSI_K = 3\nSTOCH_RSI_D = 3\nBB_PERIOD = 20",
+        "detail": "vertex_trading_bot.config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LOOKBACK_PERIOD",
+        "kind": 5,
+        "importPath": "vertex_trading_bot.config.settings",
+        "description": "vertex_trading_bot.config.settings",
+        "peekOfCode": "LOOKBACK_PERIOD = 100\n# Indicator parameters\nRSI_PERIOD = 14\nRSI_OVERBOUGHT = 70\nRSI_OVERSOLD = 30\nSTOCH_RSI_PERIOD = 14\nSTOCH_RSI_K = 3\nSTOCH_RSI_D = 3\nBB_PERIOD = 20\nBB_STD = 2",
+        "detail": "vertex_trading_bot.config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "RSI_PERIOD",
+        "kind": 5,
+        "importPath": "vertex_trading_bot.config.settings",
+        "description": "vertex_trading_bot.config.settings",
+        "peekOfCode": "RSI_PERIOD = 14\nRSI_OVERBOUGHT = 70\nRSI_OVERSOLD = 30\nSTOCH_RSI_PERIOD = 14\nSTOCH_RSI_K = 3\nSTOCH_RSI_D = 3\nBB_PERIOD = 20\nBB_STD = 2\nMACD_FAST = 12\nMACD_SLOW = 26",
+        "detail": "vertex_trading_bot.config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "RSI_OVERBOUGHT",
+        "kind": 5,
+        "importPath": "vertex_trading_bot.config.settings",
+        "description": "vertex_trading_bot.config.settings",
+        "peekOfCode": "RSI_OVERBOUGHT = 70\nRSI_OVERSOLD = 30\nSTOCH_RSI_PERIOD = 14\nSTOCH_RSI_K = 3\nSTOCH_RSI_D = 3\nBB_PERIOD = 20\nBB_STD = 2\nMACD_FAST = 12\nMACD_SLOW = 26\nMACD_SIGNAL = 9",
+        "detail": "vertex_trading_bot.config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "RSI_OVERSOLD",
+        "kind": 5,
+        "importPath": "vertex_trading_bot.config.settings",
+        "description": "vertex_trading_bot.config.settings",
+        "peekOfCode": "RSI_OVERSOLD = 30\nSTOCH_RSI_PERIOD = 14\nSTOCH_RSI_K = 3\nSTOCH_RSI_D = 3\nBB_PERIOD = 20\nBB_STD = 2\nMACD_FAST = 12\nMACD_SLOW = 26\nMACD_SIGNAL = 9\n# Risk management",
+        "detail": "vertex_trading_bot.config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STOCH_RSI_PERIOD",
+        "kind": 5,
+        "importPath": "vertex_trading_bot.config.settings",
+        "description": "vertex_trading_bot.config.settings",
+        "peekOfCode": "STOCH_RSI_PERIOD = 14\nSTOCH_RSI_K = 3\nSTOCH_RSI_D = 3\nBB_PERIOD = 20\nBB_STD = 2\nMACD_FAST = 12\nMACD_SLOW = 26\nMACD_SIGNAL = 9\n# Risk management\nMAX_POSITION_SIZE = to_x18(0.1)  # 10% of account balance",
+        "detail": "vertex_trading_bot.config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STOCH_RSI_K",
+        "kind": 5,
+        "importPath": "vertex_trading_bot.config.settings",
+        "description": "vertex_trading_bot.config.settings",
+        "peekOfCode": "STOCH_RSI_K = 3\nSTOCH_RSI_D = 3\nBB_PERIOD = 20\nBB_STD = 2\nMACD_FAST = 12\nMACD_SLOW = 26\nMACD_SIGNAL = 9\n# Risk management\nMAX_POSITION_SIZE = to_x18(0.1)  # 10% of account balance\nSTOP_LOSS_PERCENT = to_x18(0.02)  # 2% stop loss",
+        "detail": "vertex_trading_bot.config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STOCH_RSI_D",
+        "kind": 5,
+        "importPath": "vertex_trading_bot.config.settings",
+        "description": "vertex_trading_bot.config.settings",
+        "peekOfCode": "STOCH_RSI_D = 3\nBB_PERIOD = 20\nBB_STD = 2\nMACD_FAST = 12\nMACD_SLOW = 26\nMACD_SIGNAL = 9\n# Risk management\nMAX_POSITION_SIZE = to_x18(0.1)  # 10% of account balance\nSTOP_LOSS_PERCENT = to_x18(0.02)  # 2% stop loss\n# Performance targets",
+        "detail": "vertex_trading_bot.config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "BB_PERIOD",
+        "kind": 5,
+        "importPath": "vertex_trading_bot.config.settings",
+        "description": "vertex_trading_bot.config.settings",
+        "peekOfCode": "BB_PERIOD = 20\nBB_STD = 2\nMACD_FAST = 12\nMACD_SLOW = 26\nMACD_SIGNAL = 9\n# Risk management\nMAX_POSITION_SIZE = to_x18(0.1)  # 10% of account balance\nSTOP_LOSS_PERCENT = to_x18(0.02)  # 2% stop loss\n# Performance targets\nPROFIT_TARGET = to_x18(0.15)  # 15% profit target",
+        "detail": "vertex_trading_bot.config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "BB_STD",
+        "kind": 5,
+        "importPath": "vertex_trading_bot.config.settings",
+        "description": "vertex_trading_bot.config.settings",
+        "peekOfCode": "BB_STD = 2\nMACD_FAST = 12\nMACD_SLOW = 26\nMACD_SIGNAL = 9\n# Risk management\nMAX_POSITION_SIZE = to_x18(0.1)  # 10% of account balance\nSTOP_LOSS_PERCENT = to_x18(0.02)  # 2% stop loss\n# Performance targets\nPROFIT_TARGET = to_x18(0.15)  # 15% profit target\n# Machine learning",
+        "detail": "vertex_trading_bot.config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MACD_FAST",
+        "kind": 5,
+        "importPath": "vertex_trading_bot.config.settings",
+        "description": "vertex_trading_bot.config.settings",
+        "peekOfCode": "MACD_FAST = 12\nMACD_SLOW = 26\nMACD_SIGNAL = 9\n# Risk management\nMAX_POSITION_SIZE = to_x18(0.1)  # 10% of account balance\nSTOP_LOSS_PERCENT = to_x18(0.02)  # 2% stop loss\n# Performance targets\nPROFIT_TARGET = to_x18(0.15)  # 15% profit target\n# Machine learning\nML_FEATURES = [\"rsi\", \"stoch_rsi_k\", \"stoch_rsi_d\", \"bb_percent\", \"macd\", \"macd_signal\", \"macd_hist\"]",
+        "detail": "vertex_trading_bot.config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MACD_SLOW",
+        "kind": 5,
+        "importPath": "vertex_trading_bot.config.settings",
+        "description": "vertex_trading_bot.config.settings",
+        "peekOfCode": "MACD_SLOW = 26\nMACD_SIGNAL = 9\n# Risk management\nMAX_POSITION_SIZE = to_x18(0.1)  # 10% of account balance\nSTOP_LOSS_PERCENT = to_x18(0.02)  # 2% stop loss\n# Performance targets\nPROFIT_TARGET = to_x18(0.15)  # 15% profit target\n# Machine learning\nML_FEATURES = [\"rsi\", \"stoch_rsi_k\", \"stoch_rsi_d\", \"bb_percent\", \"macd\", \"macd_signal\", \"macd_hist\"]\nML_LOOKBACK = 30",
+        "detail": "vertex_trading_bot.config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MACD_SIGNAL",
+        "kind": 5,
+        "importPath": "vertex_trading_bot.config.settings",
+        "description": "vertex_trading_bot.config.settings",
+        "peekOfCode": "MACD_SIGNAL = 9\n# Risk management\nMAX_POSITION_SIZE = to_x18(0.1)  # 10% of account balance\nSTOP_LOSS_PERCENT = to_x18(0.02)  # 2% stop loss\n# Performance targets\nPROFIT_TARGET = to_x18(0.15)  # 15% profit target\n# Machine learning\nML_FEATURES = [\"rsi\", \"stoch_rsi_k\", \"stoch_rsi_d\", \"bb_percent\", \"macd\", \"macd_signal\", \"macd_hist\"]\nML_LOOKBACK = 30\nML_PREDICTION_HORIZON = 5",
+        "detail": "vertex_trading_bot.config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MAX_POSITION_SIZE",
+        "kind": 5,
+        "importPath": "vertex_trading_bot.config.settings",
+        "description": "vertex_trading_bot.config.settings",
+        "peekOfCode": "MAX_POSITION_SIZE = to_x18(0.1)  # 10% of account balance\nSTOP_LOSS_PERCENT = to_x18(0.02)  # 2% stop loss\n# Performance targets\nPROFIT_TARGET = to_x18(0.15)  # 15% profit target\n# Machine learning\nML_FEATURES = [\"rsi\", \"stoch_rsi_k\", \"stoch_rsi_d\", \"bb_percent\", \"macd\", \"macd_signal\", \"macd_hist\"]\nML_LOOKBACK = 30\nML_PREDICTION_HORIZON = 5",
+        "detail": "vertex_trading_bot.config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STOP_LOSS_PERCENT",
+        "kind": 5,
+        "importPath": "vertex_trading_bot.config.settings",
+        "description": "vertex_trading_bot.config.settings",
+        "peekOfCode": "STOP_LOSS_PERCENT = to_x18(0.02)  # 2% stop loss\n# Performance targets\nPROFIT_TARGET = to_x18(0.15)  # 15% profit target\n# Machine learning\nML_FEATURES = [\"rsi\", \"stoch_rsi_k\", \"stoch_rsi_d\", \"bb_percent\", \"macd\", \"macd_signal\", \"macd_hist\"]\nML_LOOKBACK = 30\nML_PREDICTION_HORIZON = 5",
+        "detail": "vertex_trading_bot.config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "PROFIT_TARGET",
+        "kind": 5,
+        "importPath": "vertex_trading_bot.config.settings",
+        "description": "vertex_trading_bot.config.settings",
+        "peekOfCode": "PROFIT_TARGET = to_x18(0.15)  # 15% profit target\n# Machine learning\nML_FEATURES = [\"rsi\", \"stoch_rsi_k\", \"stoch_rsi_d\", \"bb_percent\", \"macd\", \"macd_signal\", \"macd_hist\"]\nML_LOOKBACK = 30\nML_PREDICTION_HORIZON = 5",
+        "detail": "vertex_trading_bot.config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ML_FEATURES",
+        "kind": 5,
+        "importPath": "vertex_trading_bot.config.settings",
+        "description": "vertex_trading_bot.config.settings",
+        "peekOfCode": "ML_FEATURES = [\"rsi\", \"stoch_rsi_k\", \"stoch_rsi_d\", \"bb_percent\", \"macd\", \"macd_signal\", \"macd_hist\"]\nML_LOOKBACK = 30\nML_PREDICTION_HORIZON = 5",
+        "detail": "vertex_trading_bot.config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ML_LOOKBACK",
+        "kind": 5,
+        "importPath": "vertex_trading_bot.config.settings",
+        "description": "vertex_trading_bot.config.settings",
+        "peekOfCode": "ML_LOOKBACK = 30\nML_PREDICTION_HORIZON = 5",
+        "detail": "vertex_trading_bot.config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ML_PREDICTION_HORIZON",
+        "kind": 5,
+        "importPath": "vertex_trading_bot.config.settings",
+        "description": "vertex_trading_bot.config.settings",
+        "peekOfCode": "ML_PREDICTION_HORIZON = 5",
+        "detail": "vertex_trading_bot.config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DataFetcher",
+        "kind": 6,
+        "importPath": "vertex_trading_bot.data.data_fetcher",
+        "description": "vertex_trading_bot.data.data_fetcher",
+        "peekOfCode": "class DataFetcher:\n    def __init__(self):\n        self.client = create_vertex_client(ClientMode.MAINNET, settings.PRIVATE_KEY)\n    def fetch_historical_data(self):\n        candles = self.client.market.get_candles(\n            product_id=settings.PRODUCT_ID,\n            resolution=settings.TIMEFRAME,\n            limit=settings.LOOKBACK_PERIOD,\n        )\n        df = pd.DataFrame(",
+        "detail": "vertex_trading_bot.data.data_fetcher",
+        "documentation": {}
+    },
+    {
+        "label": "DataProcessor",
+        "kind": 6,
+        "importPath": "vertex_trading_bot.data.data_processor",
+        "description": "vertex_trading_bot.data.data_processor",
+        "peekOfCode": "class DataProcessor:\n    def __init__(self):\n        self.rsi = RSI(settings.RSI_PERIOD)\n        self.stoch_rsi = StochRSI(\n            settings.STOCH_RSI_PERIOD, settings.STOCH_RSI_K, settings.STOCH_RSI_D\n        )\n        self.bollinger_bands = BollingerBands(settings.BB_PERIOD, settings.BB_STD)\n        self.macd = MACD(settings.MACD_FAST, settings.MACD_SLOW, settings.MACD_SIGNAL)\n    def process_data(self, df):\n        df[\"rsi\"] = self.rsi.calculate(df[\"close\"])",
+        "detail": "vertex_trading_bot.data.data_processor",
+        "documentation": {}
+    },
+    {
+        "label": "OrderManager",
+        "kind": 6,
+        "importPath": "vertex_trading_bot.execution.order_manager",
+        "description": "vertex_trading_bot.execution.order_manager",
+        "peekOfCode": "class OrderManager:\n    def __init__(self, client):\n        self.client = client\n    def place_market_order(self, side, amount):\n        order_params = OrderParams(\n            product_id=settings.PRODUCT_ID,\n            side=side,\n            amount=amount,\n            expiration=get_expiration_timestamp(60),\n            nonce=gen_order_nonce(),",
+        "detail": "vertex_trading_bot.execution.order_manager",
+        "documentation": {}
+    },
+    {
+        "label": "BollingerBands",
+        "kind": 6,
+        "importPath": "vertex_trading_bot.indicators.bollinger_bands",
+        "description": "vertex_trading_bot.indicators.bollinger_bands",
+        "peekOfCode": "class BollingerBands:\n    def __init__(self, period, std_dev):\n        self.period = period\n        self.std_dev = std_dev\n    def calculate(self, data):\n        middle = data.rolling(self.period).mean()\n        std = data.rolling(self.period).std()\n        upper = middle + (std * self.std_dev)\n        lower = middle - (std * self.std_dev)\n        return upper, middle, lower",
+        "detail": "vertex_trading_bot.indicators.bollinger_bands",
+        "documentation": {}
+    },
+    {
+        "label": "MACD",
+        "kind": 6,
+        "importPath": "vertex_trading_bot.indicators.macd",
+        "description": "vertex_trading_bot.indicators.macd",
+        "peekOfCode": "class MACD:\n    def __init__(self, fast_period, slow_period, signal_period):\n        self.fast_period = fast_period\n        self.slow_period = slow_period\n        self.signal_period = signal_period\n    def calculate(self, data):\n        ema_fast = data.ewm(span=self.fast_period, adjust=False).mean()\n        ema_slow = data.ewm(span=self.slow_period, adjust=False).mean()\n        macd = ema_fast - ema_slow\n        signal = macd.ewm(span=self.signal_period, adjust=False).mean()",
+        "detail": "vertex_trading_bot.indicators.macd",
+        "documentation": {}
+    },
+    {
+        "label": "RSI",
+        "kind": 6,
+        "importPath": "vertex_trading_bot.indicators.rsi",
+        "description": "vertex_trading_bot.indicators.rsi",
+        "peekOfCode": "class RSI:\n    def __init__(self, period):\n        self.period = period\n    def calculate(self, data):\n        delta = data.diff()\n        gain = (delta.where(delta > 0, 0)).rolling(window=self.period).mean()\n        loss = (-delta.where(delta < 0, 0)).rolling(window=self.period).mean()\n        rs = gain / loss\n        return 100 - (100 / (1 + rs))",
+        "detail": "vertex_trading_bot.indicators.rsi",
+        "documentation": {}
+    },
+    {
+        "label": "StochRSI",
+        "kind": 6,
+        "importPath": "vertex_trading_bot.indicators.stoch_rsi",
+        "description": "vertex_trading_bot.indicators.stoch_rsi",
+        "peekOfCode": "class StochRSI:\n    def __init__(self, period, k_period, d_period):\n        self.period = period\n        self.k_period = k_period\n        self.d_period = d_period\n        self.rsi = RSI(period)\n    def calculate(self, data):\n        rsi = self.rsi.calculate(data)\n        stoch_rsi = (rsi - rsi.rolling(self.period).min()) / (\n            rsi.rolling(self.period).max() - rsi.rolling(self.period).min()",
+        "detail": "vertex_trading_bot.indicators.stoch_rsi",
+        "documentation": {}
+    },
+    {
+        "label": "MLModel",
+        "kind": 6,
+        "importPath": "vertex_trading_bot.models.ml_model",
+        "description": "vertex_trading_bot.models.ml_model",
+        "peekOfCode": "class MLModel:\n    def __init__(self, features, lookback, prediction_horizon):\n        self.features = features\n        self.lookback = lookback\n        self.prediction_horizon = prediction_horizon\n        self.model = RandomForestRegressor(n_estimators=100, random_state=42)\n        self.scaler = StandardScaler()\n    def prepare_data(self, df):\n        X = df[self.features].values\n        y = (",
+        "detail": "vertex_trading_bot.models.ml_model",
+        "documentation": {}
+    },
+    {
+        "label": "PositionSizer",
+        "kind": 6,
+        "importPath": "vertex_trading_bot.risk_management.position_sizer",
+        "description": "vertex_trading_bot.risk_management.position_sizer",
+        "peekOfCode": "class PositionSizer:\n    def __init__(self, client):\n        self.client = client\n    def calculate_position_size(self, entry_price, stop_loss_price):\n        account_balance = from_x18(self.client.portfolio.get_balance())\n        risk_amount = account_balance * from_x18(settings.MAX_POSITION_SIZE)\n        risk_per_share = abs(entry_price - stop_loss_price)\n        return to_x18(risk_amount / risk_per_share)",
+        "detail": "vertex_trading_bot.risk_management.position_sizer",
+        "documentation": {}
+    },
+    {
+        "label": "StopLossManager",
+        "kind": 6,
+        "importPath": "vertex_trading_bot.risk_management.stop_loss_manager",
+        "description": "vertex_trading_bot.risk_management.stop_loss_manager",
+        "peekOfCode": "class StopLossManager:\n    def calculate_stop_loss(self, entry_price, position_type):\n        entry_price = from_x18(entry_price)\n        if position_type == \"long\":\n            return to_x18(entry_price * (1 - from_x18(settings.STOP_LOSS_PERCENT)))\n        elif position_type == \"short\":\n            return to_x18(entry_price * (1 + from_x18(settings.STOP_LOSS_PERCENT)))\n        else:\n            raise ValueError(\"Invalid position type\")\n    def update_stop_loss(self, current_price, stop_loss, position_type):",
+        "detail": "vertex_trading_bot.risk_management.stop_loss_manager",
+        "documentation": {}
+    },
+    {
+        "label": "MultiIndicatorStrategy",
+        "kind": 6,
+        "importPath": "vertex_trading_bot.strategies.multi_indicator_strategy",
+        "description": "vertex_trading_bot.strategies.multi_indicator_strategy",
+        "peekOfCode": "class MultiIndicatorStrategy:\n    def __init__(self, ml_model):\n        self.ml_model = ml_model\n    def generate_signal(self, data):\n        rsi = data[\"rsi\"].iloc[-1]\n        stoch_rsi_k = data[\"stoch_rsi_k\"].iloc[-1]\n        stoch_rsi_d = data[\"stoch_rsi_d\"].iloc[-1]\n        bb_percent = data[\"bb_percent\"].iloc[-1]\n        macd = data[\"macd\"].iloc[-1]\n        macd_signal = data[\"macd_signal\"].iloc[-1]",
+        "detail": "vertex_trading_bot.strategies.multi_indicator_strategy",
+        "documentation": {}
+    },
+    {
+        "label": "TestDataFetcher",
+        "kind": 6,
+        "importPath": "vertex_trading_bot.tests.test_data_fetcher",
+        "description": "vertex_trading_bot.tests.test_data_fetcher",
+        "peekOfCode": "class TestDataFetcher(unittest.TestCase):\n    def setUp(self):\n        self.data_fetcher = DataFetcher()\n    def test_fetch_historical_data(self):\n        data = self.data_fetcher.fetch_historical_data()\n        self.assertIsNotNone(data)\n        self.assertEqual(len(data), settings.LOOKBACK_PERIOD)\n        self.assertIn(\"close\", data.columns)\n    def test_fetch_latest_data(self):\n        data = self.data_fetcher.fetch_latest_data()",
+        "detail": "vertex_trading_bot.tests.test_data_fetcher",
+        "documentation": {}
+    },
+    {
+        "label": "TestIndicators",
+        "kind": 6,
+        "importPath": "vertex_trading_bot.tests.test_indicators",
+        "description": "vertex_trading_bot.tests.test_indicators",
+        "peekOfCode": "class TestIndicators(unittest.TestCase):\n    def setUp(self):\n        self.data = pd.DataFrame({\"close\": range(100)})\n    def test_rsi(self):\n        rsi = RSI(14)\n        result = rsi.calculate(self.data[\"close\"])\n        self.assertIsNotNone(result)\n        self.assertEqual(len(result), 100)\n    def test_stoch_rsi(self):\n        stoch_rsi = StochRSI(14, 3, 3)",
+        "detail": "vertex_trading_bot.tests.test_indicators",
+        "documentation": {}
+    },
+    {
+        "label": "TestStrategy",
+        "kind": 6,
+        "importPath": "vertex_trading_bot.tests.test_strategy",
+        "description": "vertex_trading_bot.tests.test_strategy",
+        "peekOfCode": "class TestStrategy(unittest.TestCase):\n    def setUp(self):\n        self.ml_model = MLModel([\"rsi\", \"macd\"], 30, 5)\n        self.strategy = MultiIndicatorStrategy(self.ml_model)\n        self.data = pd.DataFrame(\n            {\n                \"close\": range(100),\n                \"rsi\": range(30, 130),\n                \"stoch_rsi_k\": range(0, 100),\n                \"stoch_rsi_d\": range(0, 100),",
+        "detail": "vertex_trading_bot.tests.test_strategy",
+        "documentation": {}
+    },
+    {
+        "label": "setup_logger",
+        "kind": 2,
+        "importPath": "vertex_trading_bot.utils.logger",
+        "description": "vertex_trading_bot.utils.logger",
+        "peekOfCode": "def setup_logger(name, log_file, level=logging.INFO):\n    \"\"\"Function to set up a logger\"\"\"\n    formatter = logging.Formatter(\"%(asctime)s %(levelname)s %(message)s\")\n    handler = logging.FileHandler(log_file)\n    handler.setFormatter(formatter)\n    logger = logging.getLogger(name)\n    logger.setLevel(level)\n    logger.addHandler(handler)\n    return logger\n# Create loggers",
+        "detail": "vertex_trading_bot.utils.logger",
+        "documentation": {}
+    },
+    {
+        "label": "log_trade",
+        "kind": 2,
+        "importPath": "vertex_trading_bot.utils.logger",
+        "description": "vertex_trading_bot.utils.logger",
+        "peekOfCode": "def log_trade(action, amount, price):\n    \"\"\"Function to log trade actions\"\"\"\n    trade_logger.info(f\"{action}: Amount: {amount}, Price: {price}\")\ndef log_error(error_message):\n    \"\"\"Function to log errors\"\"\"\n    error_logger.error(error_message)",
+        "detail": "vertex_trading_bot.utils.logger",
+        "documentation": {}
+    },
+    {
+        "label": "log_error",
+        "kind": 2,
+        "importPath": "vertex_trading_bot.utils.logger",
+        "description": "vertex_trading_bot.utils.logger",
+        "peekOfCode": "def log_error(error_message):\n    \"\"\"Function to log errors\"\"\"\n    error_logger.error(error_message)",
+        "detail": "vertex_trading_bot.utils.logger",
+        "documentation": {}
+    },
+    {
+        "label": "trade_logger",
+        "kind": 5,
+        "importPath": "vertex_trading_bot.utils.logger",
+        "description": "vertex_trading_bot.utils.logger",
+        "peekOfCode": "trade_logger = setup_logger(\"trade_log\", \"logs/trades.log\")\nerror_logger = setup_logger(\"error_log\", \"logs/errors.log\", level=logging.ERROR)\ndef log_trade(action, amount, price):\n    \"\"\"Function to log trade actions\"\"\"\n    trade_logger.info(f\"{action}: Amount: {amount}, Price: {price}\")\ndef log_error(error_message):\n    \"\"\"Function to log errors\"\"\"\n    error_logger.error(error_message)",
+        "detail": "vertex_trading_bot.utils.logger",
+        "documentation": {}
+    },
+    {
+        "label": "error_logger",
+        "kind": 5,
+        "importPath": "vertex_trading_bot.utils.logger",
+        "description": "vertex_trading_bot.utils.logger",
+        "peekOfCode": "error_logger = setup_logger(\"error_log\", \"logs/errors.log\", level=logging.ERROR)\ndef log_trade(action, amount, price):\n    \"\"\"Function to log trade actions\"\"\"\n    trade_logger.info(f\"{action}: Amount: {amount}, Price: {price}\")\ndef log_error(error_message):\n    \"\"\"Function to log errors\"\"\"\n    error_logger.error(error_message)",
+        "detail": "vertex_trading_bot.utils.logger",
+        "documentation": {}
+    },
+    {
+        "label": "check_imports",
+        "kind": 2,
+        "importPath": "error_checker",
+        "description": "error_checker",
+        "peekOfCode": "def check_imports(directory):\n    errors = []\n    for root, dirs, files in os.walk(directory):\n        for file in files:\n            if file.endswith(\".py\") and file != \"error_checker.py\":\n                module_path = os.path.join(root, file)\n                module_name = os.path.splitext(module_path)[0].replace(os.path.sep, \".\")\n                try:\n                    importlib.import_module(module_name)\n                except Exception as e:",
+        "detail": "error_checker",
+        "documentation": {}
+    },
+    {
+        "label": "TradingBot",
+        "kind": 6,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "class TradingBot:\n    def __init__(self):\n        self.client = create_vertex_client(ClientMode.MAINNET, settings.PRIVATE_KEY)\n        self.data_fetcher = DataFetcher()\n        self.data_processor = DataProcessor()\n        self.ml_model = MLModel(\n            settings.ML_FEATURES, settings.ML_LOOKBACK, settings.ML_PREDICTION_HORIZON\n        )\n        self.strategy = MultiIndicatorStrategy(self.ml_model)\n        self.position_sizer = PositionSizer(self.client)",
+        "detail": "main",
+        "documentation": {}
+    }
+]

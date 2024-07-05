@@ -1,0 +1,4 @@
+vertex-protocol-sdk
+pandas
+numpy
+scikit-learn
