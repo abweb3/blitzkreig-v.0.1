@@ -122,14 +122,6 @@
         "documentation": {}
     },
     {
-        "label": "settings",
-        "importPath": "vertex_trading_bot.config",
-        "description": "vertex_trading_bot.config",
-        "isExtraImport": true,
-        "detail": "vertex_trading_bot.config",
-        "documentation": {}
-    },
-    {
         "label": "RSI",
         "importPath": "vertex_trading_bot.indicators.rsi",
         "description": "vertex_trading_bot.indicators.rsi",
@@ -284,6 +276,22 @@
         "documentation": {}
     },
     {
+        "label": "patch",
+        "importPath": "unittest.mock",
+        "description": "unittest.mock",
+        "isExtraImport": true,
+        "detail": "unittest.mock",
+        "documentation": {}
+    },
+    {
+        "label": "patch",
+        "importPath": "unittest.mock",
+        "description": "unittest.mock",
+        "isExtraImport": true,
+        "detail": "unittest.mock",
+        "documentation": {}
+    },
+    {
         "label": "DataFetcher",
         "importPath": "vertex_trading_bot.data.data_fetcher",
         "description": "vertex_trading_bot.data.data_fetcher",
@@ -292,72 +300,43 @@
         "documentation": {}
     },
     {
-        "label": "MultiIndicatorStrategy",
-        "importPath": "vertex_trading_bot.strategies.multi_indicator_strategy",
-        "description": "vertex_trading_bot.strategies.multi_indicator_strategy",
+        "label": "DataFetcher",
+        "importPath": "vertex_trading_bot.data.data_fetcher",
+        "description": "vertex_trading_bot.data.data_fetcher",
         "isExtraImport": true,
-        "detail": "vertex_trading_bot.strategies.multi_indicator_strategy",
+        "detail": "vertex_trading_bot.data.data_fetcher",
         "documentation": {}
     },
     {
-        "label": "MLModel",
-        "importPath": "vertex_trading_bot.models.ml_model",
-        "description": "vertex_trading_bot.models.ml_model",
+        "label": "OrderManager",
+        "importPath": "vertex_trading_bot.execution.order_manager",
+        "description": "vertex_trading_bot.execution.order_manager",
         "isExtraImport": true,
-        "detail": "vertex_trading_bot.models.ml_model",
+        "detail": "vertex_trading_bot.execution.order_manager",
         "documentation": {}
     },
     {
-        "label": "logging",
-        "kind": 6,
+        "label": "TradingBot",
+        "importPath": "vertex_trading_bot",
+        "description": "vertex_trading_bot",
         "isExtraImport": true,
-        "importPath": "logging",
-        "description": "logging",
-        "detail": "logging",
+        "detail": "vertex_trading_bot",
         "documentation": {}
     },
     {
-        "label": "shutil",
-        "kind": 6,
+        "label": "DataFetcher",
+        "importPath": "vertex_trading_bot",
+        "description": "vertex_trading_bot",
         "isExtraImport": true,
-        "importPath": "shutil",
-        "description": "shutil",
-        "detail": "shutil",
+        "detail": "vertex_trading_bot",
         "documentation": {}
     },
     {
-        "label": "importlib",
-        "kind": 6,
+        "label": "OrderManager",
+        "importPath": "vertex_trading_bot",
+        "description": "vertex_trading_bot",
         "isExtraImport": true,
-        "importPath": "importlib",
-        "description": "importlib",
-        "detail": "importlib",
-        "documentation": {}
-    },
-    {
-        "label": "traceback",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "traceback",
-        "description": "traceback",
-        "detail": "traceback",
-        "documentation": {}
-    },
-    {
-        "label": "time",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "time",
-        "description": "time",
-        "detail": "time",
-        "documentation": {}
-    },
-    {
-        "label": "ClientMode",
-        "importPath": "vertex_protocol.utils.enums",
-        "description": "vertex_protocol.utils.enums",
-        "isExtraImport": true,
-        "detail": "vertex_protocol.utils.enums",
+        "detail": "vertex_trading_bot",
         "documentation": {}
     },
     {
@@ -438,6 +417,75 @@
         "description": "vertex_trading_bot",
         "isExtraImport": true,
         "detail": "vertex_trading_bot",
+        "documentation": {}
+    },
+    {
+        "label": "MultiIndicatorStrategy",
+        "importPath": "vertex_trading_bot.strategies.multi_indicator_strategy",
+        "description": "vertex_trading_bot.strategies.multi_indicator_strategy",
+        "isExtraImport": true,
+        "detail": "vertex_trading_bot.strategies.multi_indicator_strategy",
+        "documentation": {}
+    },
+    {
+        "label": "MLModel",
+        "importPath": "vertex_trading_bot.models.ml_model",
+        "description": "vertex_trading_bot.models.ml_model",
+        "isExtraImport": true,
+        "detail": "vertex_trading_bot.models.ml_model",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "shutil",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "shutil",
+        "description": "shutil",
+        "detail": "shutil",
+        "documentation": {}
+    },
+    {
+        "label": "importlib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "importlib",
+        "description": "importlib",
+        "detail": "importlib",
+        "documentation": {}
+    },
+    {
+        "label": "traceback",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "traceback",
+        "description": "traceback",
+        "detail": "traceback",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "VertexClientMode",
+        "importPath": "vertex_protocol.client.enums",
+        "description": "vertex_protocol.client.enums",
+        "isExtraImport": true,
+        "detail": "vertex_protocol.client.enums",
         "documentation": {}
     },
     {
@@ -742,8 +790,17 @@
         "kind": 6,
         "importPath": "vertex_trading_bot.tests.test_data_fetcher",
         "description": "vertex_trading_bot.tests.test_data_fetcher",
-        "peekOfCode": "class TestDataFetcher(unittest.TestCase):\n    def setUp(self):\n        self.data_fetcher = DataFetcher()\n    def test_fetch_historical_data(self):\n        data = self.data_fetcher.fetch_historical_data()\n        self.assertIsNotNone(data)\n        self.assertEqual(len(data), settings.LOOKBACK_PERIOD)\n        self.assertIn(\"close\", data.columns)\n    def test_fetch_latest_data(self):\n        data = self.data_fetcher.fetch_latest_data()",
+        "peekOfCode": "class TestDataFetcher(unittest.TestCase):\n    def setUp(self):\n        self.data_fetcher = DataFetcher()\n    def test_fetch_historical_data_empty(self):\n        with patch(\n            \"vertex_trading_bot.data.data_fetcher.pd.read_csv\",\n            return_value=pd.DataFrame(),\n        ):\n            data = self.data_fetcher.fetch_historical_data()\n            self.assertEqual(len(data), 0)",
         "detail": "vertex_trading_bot.tests.test_data_fetcher",
+        "documentation": {}
+    },
+    {
+        "label": "TestErrorHandling",
+        "kind": 6,
+        "importPath": "vertex_trading_bot.tests.test_error_handling",
+        "description": "vertex_trading_bot.tests.test_error_handling",
+        "peekOfCode": "class TestErrorHandling(unittest.TestCase):\n    def test_data_fetcher_network_failure(self):\n        # Simulate network failure by raising an exception in the fetch method\n        data_fetcher = DataFetcher()\n        with self.assertRaises(Exception):\n            data_fetcher.fetch_historical_data()  # Assuming this method would raise an Exception on failure\n    def test_order_execution_failure(self):\n        order_manager = OrderManager()\n        with self.assertRaises(Exception):\n            order_manager.execute_trade(",
+        "detail": "vertex_trading_bot.tests.test_error_handling",
         "documentation": {}
     },
     {
@@ -753,6 +810,15 @@
         "description": "vertex_trading_bot.tests.test_indicators",
         "peekOfCode": "class TestIndicators(unittest.TestCase):\n    def setUp(self):\n        self.data = pd.DataFrame({\"close\": range(100)})\n    def test_rsi(self):\n        rsi = RSI(14)\n        result = rsi.calculate(self.data[\"close\"])\n        self.assertIsNotNone(result)\n        self.assertEqual(len(result), 100)\n    def test_stoch_rsi(self):\n        stoch_rsi = StochRSI(14, 3, 3)",
         "detail": "vertex_trading_bot.tests.test_indicators",
+        "documentation": {}
+    },
+    {
+        "label": "TestTradingIntegration",
+        "kind": 6,
+        "importPath": "vertex_trading_bot.tests.test_integration",
+        "description": "vertex_trading_bot.tests.test_integration",
+        "peekOfCode": "class TestTradingIntegration(unittest.TestCase):\n    def test_full_trading_cycle(self):\n        with patch.object(\n            DataFetcher,\n            \"fetch_historical_data\",\n            return_value=pd.DataFrame({\"close\": range(50)}),\n        ), patch.object(OrderManager, \"execute_trade\", return_value=True):\n            bot = TradingBot()\n            bot.initialize()\n            bot.run()",
+        "detail": "vertex_trading_bot.tests.test_integration",
         "documentation": {}
     },
     {
@@ -823,7 +889,7 @@
         "kind": 6,
         "importPath": "main",
         "description": "main",
-        "peekOfCode": "class TradingBot:\n    def __init__(self):\n        self.client = create_vertex_client(ClientMode.MAINNET, settings.PRIVATE_KEY)\n        self.data_fetcher = DataFetcher()\n        self.data_processor = DataProcessor()\n        self.ml_model = MLModel(\n            settings.ML_FEATURES, settings.ML_LOOKBACK, settings.ML_PREDICTION_HORIZON\n        )\n        self.strategy = MultiIndicatorStrategy(self.ml_model)\n        self.position_sizer = PositionSizer(self.client)",
+        "peekOfCode": "class TradingBot:\n    \"\"\"\n    A trading bot that interacts with the Vertex Protocol to perform trading operations.\n    It utilizes market data to make trades based on a strategy defined by multiple indicators and machine learning predictions.\n    \"\"\"\n    def __init__(self):\n        \"\"\"\n        Initializes the trading bot by setting up the Vertex client and initializing all components necessary for the trading operations.\n        \"\"\"\n        # Ensure the ClientMode.MAINNET is correctly handled if different in actual import",
         "detail": "main",
         "documentation": {}
     }

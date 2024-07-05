@@ -1,4 +1,4 @@
-vertex-protocol-sdk
-pandas
-numpy
-scikit-learn
+vertex-protocol==2.0.6
+pandas==1.5.2
+numpy==1.26.0
+scikit-learn==1.3.2
