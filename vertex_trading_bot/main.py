@@ -2,6 +2,9 @@
 This module contains the implementation of a trading bot using the Vertex Protocol.
 """
 
+import sys
+import os
+
 import time
 from vertex_protocol.client import create_vertex_client, VertexClientMode
 from vertex_trading_bot import (
@@ -17,16 +20,20 @@ from vertex_trading_bot import (
     settings,
 )
 
+# Add the parent directory to the Python path
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 class TradingBot:
     """
     A trading bot that interacts with the Vertex Protocol to perform trading operations.
-    It utilizes market data to make trades based on a strategy defined by multiple indicators and machine learning predictions.
+    It utilizes market data to make trades based on a strategy
+    defined by multiple indicators and machine learning predictions.
     """
 
     def __init__(self):
         """
-        Initializes the trading bot by setting up the Vertex client and initializing all components necessary for the trading operations.
+        Initializes the trading bot by setting up the Vertex client
+        and initializing all components necessary for the trading operations.
         """
         # Ensure the ClientMode.MAINNET is correctly handled if different in actual import
         self.client = create_vertex_client(
@@ -44,7 +51,8 @@ class TradingBot:
 
     def initialize(self):
         """
-        Initializes the trading bot by fetching historical data and training the machine learning model.
+        Initializes the trading bot by fetching historical data
+        and training the machine learning model.
         """
         historical_data = self.data_fetcher.fetch_historical_data()
         processed_data = self.data_processor.process_data(historical_data)

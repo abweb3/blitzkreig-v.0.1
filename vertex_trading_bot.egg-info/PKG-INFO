@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: vertex_trading_bot
+Version: 0.1
+Requires-Dist: vertex-protocol
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: scikit-learn

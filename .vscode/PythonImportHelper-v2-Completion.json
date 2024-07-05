@@ -461,6 +461,24 @@
         "documentation": {}
     },
     {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
         "label": "shutil",
         "kind": 6,
         "isExtraImport": true,
@@ -488,12 +506,19 @@
         "documentation": {}
     },
     {
-        "label": "time",
-        "kind": 6,
+        "label": "setup",
+        "importPath": "setuptools",
+        "description": "setuptools",
         "isExtraImport": true,
-        "importPath": "time",
-        "description": "time",
-        "detail": "time",
+        "detail": "setuptools",
+        "documentation": {}
+    },
+    {
+        "label": "find_packages",
+        "importPath": "setuptools",
+        "description": "setuptools",
+        "isExtraImport": true,
+        "detail": "setuptools",
         "documentation": {}
     },
     {
@@ -699,7 +724,7 @@
         "kind": 6,
         "importPath": "vertex_trading_bot.data.data_fetcher",
         "description": "vertex_trading_bot.data.data_fetcher",
-        "peekOfCode": "class DataFetcher:\n    def __init__(self):\n        self.client = create_vertex_client(\n            VertexClientMode.MAINNET, settings.PRIVATE_KEY\n        )\n    def fetch_historical_data(self):\n        candles = self.client.market.get_candles(\n            product_id=settings.PRODUCT_ID,\n            resolution=settings.TIMEFRAME,\n            limit=settings.LOOKBACK_PERIOD,",
+        "peekOfCode": "class DataFetcher:\n    \"\"\"\n    DataFetcher is responsible for fetching market data from the Vertex Protocol.\n    It initializes a client connection to the Vertex Protocol \n    and provides methods to fetch historical and latest\n    candlestick data for a given product.\n    Attributes:\n        client: An instance of VertexClient initialized with \n        the provided private key and set to MAINNET mode.\n    \"\"\"",
         "detail": "vertex_trading_bot.data.data_fetcher",
         "documentation": {}
     },
@@ -884,21 +909,21 @@
         "documentation": {}
     },
     {
+        "label": "TradingBot",
+        "kind": 6,
+        "importPath": "vertex_trading_bot.main",
+        "description": "vertex_trading_bot.main",
+        "peekOfCode": "class TradingBot:\n    \"\"\"\n    A trading bot that interacts with the Vertex Protocol to perform trading operations.\n    It utilizes market data to make trades based on a strategy\n    defined by multiple indicators and machine learning predictions.\n    \"\"\"\n    def __init__(self):\n        \"\"\"\n        Initializes the trading bot by setting up the Vertex client\n        and initializing all components necessary for the trading operations.",
+        "detail": "vertex_trading_bot.main",
+        "documentation": {}
+    },
+    {
         "label": "check_imports",
         "kind": 2,
         "importPath": "error_checker",
         "description": "error_checker",
         "peekOfCode": "def check_imports(directory):\n    errors = []\n    for root, dirs, files in os.walk(directory):\n        for file in files:\n            if file.endswith(\".py\") and file != \"error_checker.py\":\n                module_path = os.path.join(root, file)\n                module_name = os.path.splitext(module_path)[0].replace(os.path.sep, \".\")\n                try:\n                    importlib.import_module(module_name)\n                except Exception as e:",
         "detail": "error_checker",
-        "documentation": {}
-    },
-    {
-        "label": "TradingBot",
-        "kind": 6,
-        "importPath": "main",
-        "description": "main",
-        "peekOfCode": "class TradingBot:\n    \"\"\"\n    A trading bot that interacts with the Vertex Protocol to perform trading operations.\n    It utilizes market data to make trades based on a strategy defined by multiple indicators and machine learning predictions.\n    \"\"\"\n    def __init__(self):\n        \"\"\"\n        Initializes the trading bot by setting up the Vertex client and initializing all components necessary for the trading operations.\n        \"\"\"\n        # Ensure the ClientMode.MAINNET is correctly handled if different in actual import",
-        "detail": "main",
         "documentation": {}
     }
 ]
